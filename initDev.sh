@@ -21,7 +21,7 @@ yarn init -y
 # sucrase é responsavel por converter o typescript em javascript porque o browser ou o node não lê arquivo ts e sim js
 # nodemon é o módulo responsável por executar o app e monitorar as mudanças reiniciando se necessário
 # eslint e módulos relacionados ajudam a identificar erros em tempo de desenvolvimento
-yarn add -D typescript sucrase nodemon eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+yarn add -D typescript sucrase nodemon eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin prettier eslint-config-prettier eslint-plugin-prettier
 
 # Cria o diretório onde ficaram os codigos-fontes do projeto
 mkdir src
